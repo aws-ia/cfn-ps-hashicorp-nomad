@@ -1,5 +1,5 @@
 project:
-  name: quickstart-hashicorp-nomad
+  name: cfn-ps-hashicorp-nomad
   owner: quickstart-eng@amazon.com
   package_lambda: false
   s3_regional_buckets: false
@@ -29,7 +29,7 @@ tests:
       KeyPairName: tonynv
       LoadBalancerFQDN: dummy.dns.name.com
       QSS3BucketName: $[taskcat_autobucket]
-      QSS3KeyPrefix: quickstart-hashicorp-nomad/
+      QSS3KeyPrefix: cfn-ps-hashicorp-nomad/
       SSLCertificateArn: ''
     regions:
     - us-west-2
