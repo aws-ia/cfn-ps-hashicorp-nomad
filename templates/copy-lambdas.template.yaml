@@ -21,7 +21,7 @@ Parameters:
     ConstraintDescription: >-
       S3 bucket name can include numbers, lowercase letters, uppercase letters,
       and hyphens (-). It cannot start or end with a hyphen (-).
-    Default: aws-ia-us-east-1
+    Default: aws-ia
     Description: >-
       Alphanumeric string which identifies the S3 bucket name for the Quick
       Start assets. It's the bucket to store the copy of the Quick Start assets
